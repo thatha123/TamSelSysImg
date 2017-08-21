@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1825FE681F4A8FC6007C74F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE671F4A8FC6007C74F6 /* main.m */; };
+		1825FE6B1F4A8FC6007C74F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE6A1F4A8FC6007C74F6 /* AppDelegate.m */; };
+		1825FE6E1F4A8FC6007C74F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE6D1F4A8FC6007C74F6 /* ViewController.m */; };
+		1825FE711F4A8FC6007C74F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE6F1F4A8FC6007C74F6 /* Main.storyboard */; };
+		1825FE731F4A8FC6007C74F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE721F4A8FC6007C74F6 /* Assets.xcassets */; };
+		1825FE761F4A8FC6007C74F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825FE741F4A8FC6007C74F6 /* LaunchScreen.storyboard */; };
+		1825FE811F4A8FC6007C74F6 /* TamSelSysImgDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE801F4A8FC6007C74F6 /* TamSelSysImgDemoTests.m */; };
+		1825FE8C1F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE8B1F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.m */; };
+		1825FE9C1F4A8FF6007C74F6 /* TamSelSysImg.m in Sources */ = {isa = PBXBuildFile; fileRef = 1825FE9B1F4A8FF6007C74F6 /* TamSelSysImg.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1825FE7D1F4A8FC6007C74F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825FE5B1F4A8FC6007C74F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825FE621F4A8FC6007C74F6;
+			remoteInfo = TamSelSysImgDemo;
+		};
+		1825FE881F4A8FC6007C74F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1825FE5B1F4A8FC6007C74F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1825FE621F4A8FC6007C74F6;
+			remoteInfo = TamSelSysImgDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1825FE631F4A8FC6007C74F6 /* TamSelSysImgDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamSelSysImgDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FE671F4A8FC6007C74F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1825FE691F4A8FC6007C74F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1825FE6A1F4A8FC6007C74F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1825FE6C1F4A8FC6007C74F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1825FE6D1F4A8FC6007C74F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1825FE701F4A8FC6007C74F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1825FE721F4A8FC6007C74F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1825FE751F4A8FC6007C74F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1825FE771F4A8FC6007C74F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FE7C1F4A8FC6007C74F6 /* TamSelSysImgDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamSelSysImgDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FE801F4A8FC6007C74F6 /* TamSelSysImgDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamSelSysImgDemoTests.m; sourceTree = "<group>"; };
+		1825FE821F4A8FC6007C74F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FE871F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TamSelSysImgDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1825FE8B1F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TamSelSysImgDemoUITests.m; sourceTree = "<group>"; };
+		1825FE8D1F4A8FC6007C74F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825FE9A1F4A8FF6007C74F6 /* TamSelSysImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TamSelSysImg.h; sourceTree = "<group>"; };
+		1825FE9B1F4A8FF6007C74F6 /* TamSelSysImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TamSelSysImg.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1825FE601F4A8FC6007C74F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE791F4A8FC6007C74F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE841F4A8FC6007C74F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1825FE5A1F4A8FC6007C74F6 = {
+			isa = PBXGroup;
+			children = (
+				1825FE651F4A8FC6007C74F6 /* TamSelSysImgDemo */,
+				1825FE7F1F4A8FC6007C74F6 /* TamSelSysImgDemoTests */,
+				1825FE8A1F4A8FC6007C74F6 /* TamSelSysImgDemoUITests */,
+				1825FE641F4A8FC6007C74F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1825FE641F4A8FC6007C74F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE631F4A8FC6007C74F6 /* TamSelSysImgDemo.app */,
+				1825FE7C1F4A8FC6007C74F6 /* TamSelSysImgDemoTests.xctest */,
+				1825FE871F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1825FE651F4A8FC6007C74F6 /* TamSelSysImgDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE991F4A8FD9007C74F6 /* TamSelSysImg */,
+				1825FE691F4A8FC6007C74F6 /* AppDelegate.h */,
+				1825FE6A1F4A8FC6007C74F6 /* AppDelegate.m */,
+				1825FE6C1F4A8FC6007C74F6 /* ViewController.h */,
+				1825FE6D1F4A8FC6007C74F6 /* ViewController.m */,
+				1825FE6F1F4A8FC6007C74F6 /* Main.storyboard */,
+				1825FE721F4A8FC6007C74F6 /* Assets.xcassets */,
+				1825FE741F4A8FC6007C74F6 /* LaunchScreen.storyboard */,
+				1825FE771F4A8FC6007C74F6 /* Info.plist */,
+				1825FE661F4A8FC6007C74F6 /* Supporting Files */,
+			);
+			path = TamSelSysImgDemo;
+			sourceTree = "<group>";
+		};
+		1825FE661F4A8FC6007C74F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE671F4A8FC6007C74F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1825FE7F1F4A8FC6007C74F6 /* TamSelSysImgDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE801F4A8FC6007C74F6 /* TamSelSysImgDemoTests.m */,
+				1825FE821F4A8FC6007C74F6 /* Info.plist */,
+			);
+			path = TamSelSysImgDemoTests;
+			sourceTree = "<group>";
+		};
+		1825FE8A1F4A8FC6007C74F6 /* TamSelSysImgDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE8B1F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.m */,
+				1825FE8D1F4A8FC6007C74F6 /* Info.plist */,
+			);
+			path = TamSelSysImgDemoUITests;
+			sourceTree = "<group>";
+		};
+		1825FE991F4A8FD9007C74F6 /* TamSelSysImg */ = {
+			isa = PBXGroup;
+			children = (
+				1825FE9A1F4A8FF6007C74F6 /* TamSelSysImg.h */,
+				1825FE9B1F4A8FF6007C74F6 /* TamSelSysImg.m */,
+			);
+			path = TamSelSysImg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1825FE621F4A8FC6007C74F6 /* TamSelSysImgDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FE901F4A8FC6007C74F6 /* Build configuration list for PBXNativeTarget "TamSelSysImgDemo" */;
+			buildPhases = (
+				1825FE5F1F4A8FC6007C74F6 /* Sources */,
+				1825FE601F4A8FC6007C74F6 /* Frameworks */,
+				1825FE611F4A8FC6007C74F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamSelSysImgDemo;
+			productName = TamSelSysImgDemo;
+			productReference = 1825FE631F4A8FC6007C74F6 /* TamSelSysImgDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1825FE7B1F4A8FC6007C74F6 /* TamSelSysImgDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FE931F4A8FC6007C74F6 /* Build configuration list for PBXNativeTarget "TamSelSysImgDemoTests" */;
+			buildPhases = (
+				1825FE781F4A8FC6007C74F6 /* Sources */,
+				1825FE791F4A8FC6007C74F6 /* Frameworks */,
+				1825FE7A1F4A8FC6007C74F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825FE7E1F4A8FC6007C74F6 /* PBXTargetDependency */,
+			);
+			name = TamSelSysImgDemoTests;
+			productName = TamSelSysImgDemoTests;
+			productReference = 1825FE7C1F4A8FC6007C74F6 /* TamSelSysImgDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1825FE861F4A8FC6007C74F6 /* TamSelSysImgDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1825FE961F4A8FC6007C74F6 /* Build configuration list for PBXNativeTarget "TamSelSysImgDemoUITests" */;
+			buildPhases = (
+				1825FE831F4A8FC6007C74F6 /* Sources */,
+				1825FE841F4A8FC6007C74F6 /* Frameworks */,
+				1825FE851F4A8FC6007C74F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1825FE891F4A8FC6007C74F6 /* PBXTargetDependency */,
+			);
+			name = TamSelSysImgDemoUITests;
+			productName = TamSelSysImgDemoUITests;
+			productReference = 1825FE871F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1825FE5B1F4A8FC6007C74F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "涂怀安";
+				TargetAttributes = {
+					1825FE621F4A8FC6007C74F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+					};
+					1825FE7B1F4A8FC6007C74F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1825FE621F4A8FC6007C74F6;
+					};
+					1825FE861F4A8FC6007C74F6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 975CCKKA59;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1825FE621F4A8FC6007C74F6;
+					};
+				};
+			};
+			buildConfigurationList = 1825FE5E1F4A8FC6007C74F6 /* Build configuration list for PBXProject "TamSelSysImgDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1825FE5A1F4A8FC6007C74F6;
+			productRefGroup = 1825FE641F4A8FC6007C74F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1825FE621F4A8FC6007C74F6 /* TamSelSysImgDemo */,
+				1825FE7B1F4A8FC6007C74F6 /* TamSelSysImgDemoTests */,
+				1825FE861F4A8FC6007C74F6 /* TamSelSysImgDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1825FE611F4A8FC6007C74F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE761F4A8FC6007C74F6 /* LaunchScreen.storyboard in Resources */,
+				1825FE731F4A8FC6007C74F6 /* Assets.xcassets in Resources */,
+				1825FE711F4A8FC6007C74F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE7A1F4A8FC6007C74F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE851F4A8FC6007C74F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1825FE5F1F4A8FC6007C74F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE6E1F4A8FC6007C74F6 /* ViewController.m in Sources */,
+				1825FE6B1F4A8FC6007C74F6 /* AppDelegate.m in Sources */,
+				1825FE681F4A8FC6007C74F6 /* main.m in Sources */,
+				1825FE9C1F4A8FF6007C74F6 /* TamSelSysImg.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE781F4A8FC6007C74F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE811F4A8FC6007C74F6 /* TamSelSysImgDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1825FE831F4A8FC6007C74F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1825FE8C1F4A8FC6007C74F6 /* TamSelSysImgDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1825FE7E1F4A8FC6007C74F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825FE621F4A8FC6007C74F6 /* TamSelSysImgDemo */;
+			targetProxy = 1825FE7D1F4A8FC6007C74F6 /* PBXContainerItemProxy */;
+		};
+		1825FE891F4A8FC6007C74F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1825FE621F4A8FC6007C74F6 /* TamSelSysImgDemo */;
+			targetProxy = 1825FE881F4A8FC6007C74F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1825FE6F1F4A8FC6007C74F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825FE701F4A8FC6007C74F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1825FE741F4A8FC6007C74F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1825FE751F4A8FC6007C74F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1825FE8E1F4A8FC6007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1825FE8F1F4A8FC6007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1825FE911F4A8FC6007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSelSysImgDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSelSysImgDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1825FE921F4A8FC6007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSelSysImgDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSelSysImgDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1825FE941F4A8FC6007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSelSysImgDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSelSysImgDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamSelSysImgDemo.app/TamSelSysImgDemo";
+			};
+			name = Debug;
+		};
+		1825FE951F4A8FC6007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSelSysImgDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSelSysImgDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TamSelSysImgDemo.app/TamSelSysImgDemo";
+			};
+			name = Release;
+		};
+		1825FE971F4A8FC6007C74F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSelSysImgDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSelSysImgDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamSelSysImgDemo;
+			};
+			name = Debug;
+		};
+		1825FE981F4A8FC6007C74F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 975CCKKA59;
+				INFOPLIST_FILE = TamSelSysImgDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tam.TamSelSysImgDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TamSelSysImgDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1825FE5E1F4A8FC6007C74F6 /* Build configuration list for PBXProject "TamSelSysImgDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE8E1F4A8FC6007C74F6 /* Debug */,
+				1825FE8F1F4A8FC6007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825FE901F4A8FC6007C74F6 /* Build configuration list for PBXNativeTarget "TamSelSysImgDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE911F4A8FC6007C74F6 /* Debug */,
+				1825FE921F4A8FC6007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825FE931F4A8FC6007C74F6 /* Build configuration list for PBXNativeTarget "TamSelSysImgDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE941F4A8FC6007C74F6 /* Debug */,
+				1825FE951F4A8FC6007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1825FE961F4A8FC6007C74F6 /* Build configuration list for PBXNativeTarget "TamSelSysImgDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1825FE971F4A8FC6007C74F6 /* Debug */,
+				1825FE981F4A8FC6007C74F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1825FE5B1F4A8FC6007C74F6 /* Project object */;
+}
